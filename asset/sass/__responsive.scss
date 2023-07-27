@@ -1,0 +1,401 @@
+@media (max-width: 991px) {
+     #header_top{
+          padding: 15px 0px;
+          .logo_box{
+               display: flex;
+               align-items: center;
+               img{
+                    width: 105px;
+               }
+               .toggleButtonBox{
+                    display: block;
+                    margin-right: 15px;
+               }
+          }
+          .mobileNavMenu{
+               display: block;
+          }
+          .col-12{
+               order: 3;
+          }
+          .header_search_box{
+               width: 100%;
+               float: inherit !important;
+               margin-top: 15px;
+          }
+          .nav_menu_bar{
+               display: none;
+          }
+     }
+     #heroBannerInfo {
+          .mainWrapper{
+               .rightSLiderItem{
+                    img{
+                         margin: 0 auto;
+                         display: table;
+                    }
+               }
+          }
+     }
+     #cashbackStores .miainTabPreviewContent .topButtonArea .nav-tabs .nav-item .nav-link {
+          padding: 10px 3px;
+          font-weight: 600;
+          font-size: 12px;
+     }
+     // store page
+     #storePageWrapper {
+          padding: 114px 0px 70px 0px;
+     }
+     #storePageWrapper .storeMaainContent .storeSidebar {
+          display: none;
+     }
+     // store details
+     #storeDetails {
+          padding: 114px 0px 70px 0px;
+     }
+     #storeDetails .mainPreviewTop .topDetailsArea .rightInfo .item {
+          padding: 8px 0px;
+     }
+     #storeDetails .mainPreviewTop .topDetailsArea .rightInfo{
+          margin-top: 20px;
+     }
+     // contact page
+     #contactPagearea .content {
+          width: 90%;
+     }
+     // privacy policy
+     #privacyPolicy {
+          padding: 140px 0px 100px 0px;
+     }
+     // terms condition
+     #termsCondition {
+          padding: 140px 0px 100px 0px;
+     }
+     // profile page
+     #settingPageWrapper {
+          padding: 150px 0px 50px 0px;
+     }
+     #settingPageWrapper .settingWrapper {
+          margin-top: 30px;
+     }
+     // popup modal
+     .authModal .modal-dialog {
+          max-width: 90%;
+     }
+     .chagePasswordModal .modal-dialog {
+          max-width: 75%;
+     }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+     #storeDetails .mainPreviewTop .topDetailsArea .rightInfo .item {
+          margin-top: 20px;
+     }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+     #Taskarea .taskBottomWrapper::before {
+          width: 44%;
+     }
+     #Taskarea .taskBottomWrapper .middleImageBox img {
+          width: auto;
+          height: 258px;
+     }
+     #footerArea{
+          .footerLogo {
+               text-align: left !important;
+          }
+          .col-md-5{
+               order: 2;
+          }
+          .col-md-7{
+               order: 1;
+          }
+          .col-12{
+               order: 3;
+          }
+          .contactInfo  {
+               margin-top: 20px;
+               text-align: center !important;
+          }
+     }
+}
+
+@media (max-width: 767px) {
+     .section_heading h3 {
+          font-size: 22px;
+     }
+     #heroBannerInfo {
+          .mainWrapper{
+               .rightSLiderItem{
+                    img{
+                         margin: 0 auto;
+                         display: table;
+                         width: 100%;
+                         height: 200px;
+                    }
+               }
+          }
+     }
+     #cashbackStores {
+          background: rgba(244, 179, 89, 0.08);
+          padding-top: 30px;
+     }
+     #cashbackStores .miainTabPreviewContent .topButtonArea .nav-tabs .nav-item .nav-link{
+          .mobileIcon{
+               display: flex;
+               margin-bottom: 10px;
+          }
+     }
+     #cashbackStores .miainTabPreviewContent .topButtonArea .nav-tabs .nav-item .nav-link span{
+          display: none;
+     }
+     #cashbackStores .miainTabPreviewContent .topButtonArea .nav-tabs {
+          background-color: transparent;
+          border-radius: 0px;
+     }
+     #cashbackStores .miainTabPreviewContent .topButtonArea .nav-tabs .nav-item .active {
+          background: transparent;
+          color: #000;
+          .mobileIcon{
+               background: $liner;
+               i{
+                    color: #fff;
+               }
+          }
+     }
+     #cashbackStores .miainTabPreviewContent .topButtonArea{
+          overflow-x: scroll;
+     }
+     #cashbackStores .miainTabPreviewContent .topButtonArea .nav{
+          flex-wrap: nowrap;
+          width: max-content !important;
+          min-width: 100%;
+     }
+     #cashbackStores .miainTabPreviewContent .topButtonArea .nav-tabs .nav-item {
+          min-width: 85px;
+     }
+     #earnCashBack .innerItem {
+          width: max-content;
+          overflow-y: scroll;
+          flex-wrap: nowrap;
+     }
+     #earnCashBack .singleItem {
+          width: max-content;
+     }
+     #earnCashBack .singleItem .content h4 {
+          width: 60%;
+          margin: 0 auto;
+     }
+     #profitLinkArea{
+          overflow: hidden;
+          padding-top: 30px;
+          .container{
+               max-width: 100%;
+               padding: 0px;
+          }
+     }
+     #Taskarea .taskBottomWrapper .leftInfo {
+          display: none;
+     }
+     #Taskarea .taskBottomWrapper::before {
+          width: 100%;
+     }
+     #Taskarea .taskBottomWrapper .rightinfo {
+          text-align: left;
+     }
+     #Taskarea .taskBottomWrapper .rightinfo .content {
+          padding: 0px 0px;
+     }
+     #Taskarea .taskBottomWrapper .rightinfo .content h4 {
+          font-size: 18px;
+     }
+     #Taskarea .taskBottomWrapper .rightinfo .content p {
+          color: #fff;
+          font-weight: 400;
+          font-size: 13px;
+     }
+     #addCardArea{
+          display: none;
+     }
+     #mobileAddCard{
+          display: block;
+     }
+     #siteInfoAreaBottom .singleInfoBox h4 {
+          font-size: 18px;
+          line-height: 26px;
+     }
+     // store details
+     #storeDetails .mainPreviewTop .topDetailsArea .brandPreview {
+          height: 125px;
+          width: 46%;
+          margin: 0 auto;
+          margin-bottom: 20px;
+     }
+     // popup
+     .authModal .modal-dialog {
+          max-width: 70%;
+     }
+     .authModal .modal-body {
+          .left_bg{
+               display: none;
+          }
+     }
+     .authModal .modal-body .rightContent {
+          padding: 70px 0px;
+     }
+     .authModal .modal-body .rightContent .googleLogin .googleLoginBtn {
+          font-size: 10px;
+     }
+}
+
+/*-- Phone Landscape --*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+     #header_top .logo_box img {
+          width: 86px;
+     }
+     #heroBannerInfo .mainWrapper .rightSLiderItem {
+          display: none;
+     }
+     #feateredStores .featuredCardWrapper .owl-nav .owl-next {
+          right: 0px;
+     }
+     #feateredStores .featuredCardWrapper .owl-nav .owl-prev {
+          left: 0px;
+     }
+     #profitLinkArea .profitWrapper {
+          padding: 20px 20px;
+     }
+     #profitLinkArea .profitWrapper .topInfo p {
+          font-size: 13px;
+     }
+     #Taskarea .taskBottomWrapper .middleImageBox img {
+          width: 50%;
+          margin: 0 auto;
+          display: table;
+     }
+     #Taskarea .taskBottomWrapper .rightinfo {
+          margin-top: 20px;
+          text-align: center;
+     }
+     #footerArea{
+          .col-sm-7{
+               order: 1;
+          }
+          .col-sm-5{
+               order: 2;
+          }
+          .col-12{
+               order: 3;
+          }
+     }
+     #footerArea .socialConnect h4 {
+          font-size: 13px;
+     }
+     #footerArea .footerLink {
+          margin-top: 20px;
+     }
+     #footerArea .contactInfo {
+          text-align: center !important;
+          margin-top: 20px;
+     }
+     .mobileMenuContent {
+          width: 80% !important;
+     }
+     .cardStyle1 .imageBox {
+          padding: 12px 17px;
+     }
+     .cardStyle1 span {
+          font-size: 13px;
+     }
+     #earnCashBack .headingArea h4 {
+          font-size: 21px;
+     }
+     // store page
+     #storePageWrapper .storeMaainContent .storeContent .topFilterArea .latterFilter {
+          display: none;
+     }
+     #storePageWrapper .storeMaainContent .storeContent .topFilterArea .searchBox {
+          width: 100%;
+     }
+     #storePageWrapper  {
+          overflow: hidden;
+          .container-fluid{
+               padding: 0px;
+          }
+     }
+     // store details
+     #storeDetails .mainPreviewTop .topDetailsArea .brandPreview {
+          height: 125px;
+          width: 100%;
+     }
+     #storeDetails .mainPreviewTop .topDetailsArea .middleInfo h2 {
+          font-size: 22px;
+     }
+     #storeDetails .mainDetailsBox .detailsContent .cashbackRates {
+          padding: 20px 20px;
+     }
+     #storeDetails .mainDetailsBox .detailsContent .cashbackRates .topInfo .form-control {
+          width: 100%;
+     }
+     #storeDetails .mainDetailsBox .detailsContent .similarBox .sliderActive .singleSliderItem .imageBox {
+          width: 100%;
+          padding: 26px 0px;
+     }
+     #storeDetails .mainDetailsBox .detailsContent .similarBox .sliderActive .singleSliderItem .imageBox a {
+          min-height: 92px;
+     }
+     // privacy policy
+     #privacyPolicy .content h2 {
+          font-size: 24px;
+     }
+     #privacyPolicy .content .singleItem p {
+          font-size: 14px;
+     }
+     // tersmcondition
+     #termsCondition .content h2 {
+          font-size: 24px;
+     }
+     #termsCondition .content p {
+          font-size: 14px;
+     }
+     // profile
+     #settingPageWrapper .settingWrapper .myProfileArea {
+          padding: 30px 20px;
+     }
+     #settingPageWrapper .settingWrapper .myProfileArea .topInfo .actionButton {
+          justify-content: center;
+     }
+     #settingPageWrapper .settingWrapper .myProfileArea .formBoxArea .radioBox {
+          flex-wrap: wrap;
+     }
+     #settingPageWrapper .settingWrapper .myProfileArea .formBoxArea .statusCheck {
+          top: 42px;
+     }
+     #settingPageWrapper .settingWrapper .myWalletArea .mainWalletWrapper {
+          background-color: #fff;
+          padding: 30px 20px;
+     }
+     .authModal .modal-dialog {
+          max-width: 100%;
+     }
+     .authModal .modal-header {
+          top: -20px;
+          left: -5px;
+     }
+     .authModal .modal-header .btn-close {
+          height: 25px;
+          width: 25px;
+     }
+     .authModal .modal-body .rightContent .incorrectNumberButton {
+          width: 80%;
+     }
+     .chagePasswordModal .modal-dialog {
+          max-width: 100%;
+     }
+}

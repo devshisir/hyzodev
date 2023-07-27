@@ -1,0 +1,534 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+     <meta charset="utf-8">
+     <title>Hyyzo | My Wallet</title>
+     <meta name="description" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- google fonts link -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+     <!-- Favicons -->
+     <link rel="icon" href="asset/img/favicons/faviconhyyzo-32x32.png" sizes="32x32" type="image/png">
+     <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+     <link rel="stylesheet" href="asset/css/fontawsome.min.css">
+     <link rel="stylesheet" href="asset/css/style.css">
+     <link rel="stylesheet" href="asset/css/responsive.css">
+     <!-- this is for mordanizar js link -->
+     <script src="asset/js/vendor/modernizr-3.6.0.min.js"></script>
+</head>
+
+<body>
+     <header id="header_top">
+          <div class="container">
+               <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-2 col-6">
+                         <div class="logo_box">
+                              <div class="toggleButtonBox">
+                                   <button type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                                        <i class="fa-regular fa-bars-staggered"></i>
+                                   </button>
+                              </div>
+                              <a href="index.html">
+                                   <img src="./asset/img/logo.png" alt="Logo">
+                              </a>
+                         </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-12">
+                         <div class="header_search_box">
+                              <div class="input-group">
+                                   <input type="text" class="form-control" placeholder="Search Stores...">
+                                   <span class="input-group-text">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                   </span>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 col-6">
+                         <div class="nav_menu_bar text-end">
+                              <ul>
+                                   <li>
+                                        <a href="stores.html">All Stores</a>
+                                   </li>
+                                   <li>
+                                        <a href="#">Tasks</a>
+                                   </li>
+                                   <!-- before login -->
+                                   <!-- <li>
+                            <a href="#">Login / Signup</a>
+                         </li> -->
+                                   <!-- after login -->
+                                   <li>
+                                        <div class="btn-group user_dropdown">
+                                             <button type="button" class="btn btn-secondary dropdown-toggle"
+                                                  data-bs-toggle="dropdown" aria-expanded="false">
+                                                  <span class="user_avatar">
+                                                       <img src="./asset/img/user-icon.png" alt="user name">
+                                                  </span>
+                                                  <span class="user_name">
+                                                       Arpit Gang
+                                                  </span>
+                                             </button>
+                                             <ul class="dropdown-menu dropdown-menu-end">
+                                                  <div class="userDropWrapper">
+                                                       <div class="userDropTop">
+                                                            <div class="singleBox">
+                                                                 <h4>Pending balance:</h4>
+                                                                 <span>
+                                                                      <img src="./asset/img/diamond-sm.png" alt="">
+                                                                      0
+                                                                 </span>
+                                                            </div>
+                                                            <div class="singleBox">
+                                                                 <h4>Available balance:</h4>
+                                                                 <span>
+                                                                      <img src="./asset/img/diamond-sm.png" alt="">
+                                                                      25
+                                                                 </span>
+                                                            </div>
+                                                       </div>
+                                                       <div class="userActionLink">
+                                                            <ul>
+                                                                 <li>
+                                                                      <a href="myprofile.html">
+                                                                           <span><i class="fa-solid fa-user"></i></span>
+                                                                           My Profile
+                                                                      </a>
+                                                                 </li>
+                                                                 <li>
+                                                                      <a href="mywallet.html">
+                                                                           <span><i
+                                                                                     class="fa-regular fa-wallet"></i></span>
+                                                                           Wallet
+                                                                      </a>
+                                                                 </li>
+                                                                 <li>
+                                                                      <a href="#">
+                                                                           <span><i
+                                                                                     class="fa-solid fa-arrow-right-from-bracket"></i></span>
+                                                                           Logout
+                                                                      </a>
+                                                                 </li>
+                                                            </ul>
+                                                       </div>
+                                                  </div>
+                                             </ul>
+                                        </div>
+                                   </li>
+                              </ul>
+                         </div>
+                         <div class="mobileNavMenu text-end">
+                              <ul>
+                                   <!-- <li class="beforeLogin">
+                            <a href="#">Login / Signup</a>
+                         </li> -->
+                                   <li class="afterLogin">
+                                        <div class="dimondShowBox">
+                                             <img src="./asset/img/diamond-sm.png" alt="">
+                                             <span>25</span>
+                                        </div>
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </header>
+     <!-- mobile toggle menu -->
+     <div class="offcanvas offcanvas-start mobileMenuContent" tabindex="-1" id="mobileMenu"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-body">
+               <div class="mbileHeader">
+                    <div class="leftInfo">
+                         <img src="./asset/img/user-icon.png" alt="">
+                         <span>Arpit Gang</span>
+                    </div>
+                    <div class="rightLogo">
+                         <img src="./asset/img/mobile-logo.png" alt="">
+                    </div>
+               </div>
+               <div class="mobileToggleNavLink">
+                    <ul>
+                         <li>
+                              <a href="myprofile.html">
+                                   <span><i class="fa-solid fa-user"></i></span>
+                                   My Profile
+                              </a>
+                         </li>
+                         <li>
+                              <a href="mywallet.html">
+                                   <span><i class="fa-regular fa-wallet"></i></span>
+                                   Wallet
+                              </a>
+                         </li>
+                         <li>
+                              <a href="#">
+                                   <span><i class="fa-solid fa-arrow-right-from-bracket"></i></span>
+                                   Logout
+                              </a>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </div>
+     <section id="settingPageWrapper">
+          <div class="container-fluid">
+               <div class="row">
+                    <div class="col-xl-3 col-lg-4">
+                         <div class="settingSidebar">
+                              <div class="topInfo">
+                                   <div class="userInfo">
+                                        <div class="image">
+                                             <img src="./asset/img/user-icon.png" alt="">
+                                        </div>
+                                        <div class="name">
+                                             <h4>Arpit Gang</h4>
+                                        </div>
+                                   </div>
+                                   <div class="bottomInfo">
+                                        <ul>
+                                             <li>
+                                                  <p>Pending Balance:</p>
+                                                  <div class="dimodBox">
+                                                       <img src="./asset/img/diamond-sm.png" alt="">
+                                                       <span>0</span>
+                                                  </div>
+                                             </li>
+                                             <li>
+                                                  <p>Available Balance:</p>
+                                                  <div class="dimodBox">
+                                                       <img src="./asset/img/diamond-sm.png" alt="">
+                                                       <span>25</span>
+                                                  </div>
+                                             </li>
+                                        </ul>
+                                   </div>
+                              </div>
+                              <div class="settingNavLink">
+                                   <ul>
+                                        <li>
+                                             <a href="myprofile.html">
+                                                  <span><i class="fa-solid fa-user"></i></span>
+                                                  My Profile
+                                             </a>
+                                        </li>
+                                        <li>
+                                             <a href="mywallet.html" class="active">
+                                                  <span><i class="fa-regular fa-wallet"></i></span>
+                                                  Wallet
+                                             </a>
+                                        </li>
+                                        <li>
+                                             <a href="#">
+                                                  <span><i class="fa-solid fa-arrow-right-from-bracket"></i></span>
+                                                  Logout
+                                             </a>
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-8">
+                         <div class="settingWrapper">
+                              <div class="myWalletArea">
+                                   <div class="topHeading">
+                                        <h3>My Wallet</h3>
+                                   </div>
+                                   <div class="mainWalletWrapper">
+                                        <div class="topInfo">
+                                             <h4>
+                                                  <span>Your Redeemable Balance:</span>
+                                                  <span class="rightContent">
+                                                       <img src="./asset/img/diamond-sm.png" alt="">
+                                                       25
+                                                  </span>
+                                             </h4>
+                                             <div class="reademeButton">
+                                                  <a href="#" class="btn btn-primary">Redeem Now</a>
+                                             </div>
+                                             <p>(You need 175 more Diamonds to redeem)</p>
+                                        </div>
+                                        <div class="balanceOverView">
+                                             <div class="headingInfo">
+                                                  <h4>Balance Overview</h4>
+                                             </div>
+                                             <div class="mainBox">
+                                                  <div class="singleItem">
+                                                       <div class="itemboxTop">
+                                                            <div class="left">
+                                                                 <img src="./asset/img/statussuccess.svg" alt="">
+                                                                 <h3>Approved Balance</h3>
+                                                            </div>
+                                                            <div class="right">
+                                                                 <img src="./asset/img/diamond-sm.png" alt="">
+                                                                 <span>25</span>
+                                                            </div>
+                                                       </div>
+                                                       <div class="innerItem">
+                                                            <div class="left">
+                                                                 <h4>Cashback Earnings</h4>
+                                                            </div>
+                                                            <div class="right">
+                                                                 <img src="./asset/img/diamond-sm.png" alt="">
+                                                                 <span>0</span>
+                                                            </div>
+                                                       </div>
+                                                       <div class="innerItem">
+                                                            <div class="left">
+                                                                 <h4>Referral Earnings</h4>
+                                                            </div>
+                                                            <div class="right">
+                                                                 <img src="./asset/img/diamond-sm.png" alt="">
+                                                                 <span>0</span>
+                                                            </div>
+                                                       </div>
+                                                       <div class="innerItem">
+                                                            <div class="left">
+                                                                 <h4>Task/Bonus Earnings</h4>
+                                                            </div>
+                                                            <div class="right">
+                                                                 <img src="./asset/img/diamond-sm.png" alt="">
+                                                                 <span>0</span>
+                                                            </div>
+                                                       </div>
+                                                       <div class="innerItem">
+                                                            <div class="left">
+                                                                 <h4>Task/Bonus Earnings</h4>
+                                                            </div>
+                                                            <div class="right">
+                                                                 <img src="./asset/img/diamond-sm.png" alt="">
+                                                                 <span>25</span>
+                                                            </div>
+                                                       </div>
+                                                       <div class="innerItem">
+                                                            <div class="left">
+                                                                 <h4>Voucher Cash Earnings</h4>
+                                                            </div>
+                                                            <div class="right">
+                                                                 <img src="./asset/img/diamond-sm.png" alt="">
+                                                                 <span>0</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="singleItem">
+                                                       <div class="itemboxTop">
+                                                            <div class="left">
+                                                                 <img src="./asset/img/statuspending.svg" alt="">
+                                                                 <h3>Pending Balance</h3>
+                                                            </div>
+                                                            <div class="right">
+                                                                 <img src="./asset/img/diamond-sm.png" alt="">
+                                                                 <span>0</span>
+                                                            </div>
+                                                       </div>
+                                                       <div class="innerItem">
+                                                            <div class="left">
+                                                                 <h4>Cashback Earnings</h4>
+                                                            </div>
+                                                            <div class="right">
+                                                                 <img src="./asset/img/diamond-sm.png" alt="">
+                                                                 <span>0</span>
+                                                            </div>
+                                                       </div>
+                                                       <div class="innerItem">
+                                                            <div class="left">
+                                                                 <h4>Referral Earnings</h4>
+                                                            </div>
+                                                            <div class="right">
+                                                                 <img src="./asset/img/diamond-sm.png" alt="">
+                                                                 <span>0</span>
+                                                            </div>
+                                                       </div>
+                                                       <div class="innerItem">
+                                                            <div class="left">
+                                                                 <h4>Task/Bonus Earnings</h4>
+                                                            </div>
+                                                            <div class="right">
+                                                                 <img src="./asset/img/diamond-sm.png" alt="">
+                                                                 <span>0</span>
+                                                            </div>
+                                                       </div>
+                                                       <div class="innerItem">
+                                                            <div class="left">
+                                                                 <h4>Voucher Cash Earnings</h4>
+                                                            </div>
+                                                            <div class="right">
+                                                                 <img src="./asset/img/diamond-sm.png" alt="">
+                                                                 <span>0</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="bottomLinkHelp">
+                                             <ul>
+                                                  <li>
+                                                       <a href="#">
+                                                            <span>Recent Purchase</span>
+                                                            <span><i class="fa-regular fa-chevron-right"></i></span>
+                                                       </a>
+                                                  </li>
+                                                  <li>
+                                                       <a href="#">
+                                                            <span>Redemption History</span>
+                                                            <span><i class="fa-regular fa-chevron-right"></i></span>
+                                                       </a>
+                                                  </li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <div class="modal fade chagePasswordModal" id="chnagePassword" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+               <div class="modal-content">
+                    <div class="modal-header">
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                         <div class="formArea">
+                              <form action="#">
+                                   <div class="row mb-3 align-items-center">
+                                        <div class="col-auto col_label">
+                                             <label for="inputPassword6" class="col-form-label">Old Password:</label>
+                                        </div>
+                                        <div class="col-auto inputFild">
+                                             <input type="password" id="inputPassword6" class="form-control"
+                                                  aria-describedby="passwordHelpInline">
+                                             <div class="forgotpassLink">
+                                                  <a href="#">Forgot-Old-Password?</a>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="row mb-3 align-items-center">
+                                        <div class="col-auto col_label">
+                                             <label for="inputPassword6" class="col-form-label">New Password :</label>
+                                        </div>
+                                        <div class="col-auto inputFild">
+                                             <input type="password" id="inputPassword6" class="form-control"
+                                                  aria-describedby="passwordHelpInline">
+                                        </div>
+                                   </div>
+                                   <div class="row align-items-center">
+                                        <div class="col-auto col_label">
+                                             <label for="inputPassword6" class="col-form-label">Conform Password
+                                                  :</label>
+                                        </div>
+                                        <div class="col-auto inputFild">
+                                             <input type="password" id="inputPassword6" class="form-control"
+                                                  aria-describedby="passwordHelpInline">
+                                        </div>
+                                   </div>
+                              </form>
+                         </div>
+                    </div>
+                    <div class="modal-footer">
+                         <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <footer id="footerArea">
+          <div class="container">
+               <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5">
+                         <div class="footerLink">
+                              <h4>PAGES</h4>
+                              <ul>
+                                   <li>
+                                        <a href="termscondition.html">Terms & Conditions</a>
+                                   </li>
+                                   <li>
+                                        <a href="privacy-policy.html">Privacy-Policy</a>
+                                   </li>
+                                   <li>
+                                        <a href="#">About Us</a>
+                                   </li>
+                                   <li>
+                                        <a href="contact.html">Contact Us</a>
+                                   </li>
+                                   <li>
+                                        <a href="#">Help & Support</a>
+                                   </li>
+                              </ul>
+                         </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-7 col-sm-7">
+                         <div class="footerLogo text-center">
+                              <div class="logoBox">
+                                   <a href="index.html">
+                                        <img src="./asset/img/logo.png" alt="">
+                                   </a>
+                              </div>
+                              <div class="socialConnect">
+                                   <h4>CONNECT WITH US</h4>
+                                   <ul>
+                                        <li>
+                                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-12">
+                         <div class="contactInfo text-end">
+                              <h4>CONTACT INFO</h4>
+                              <div class="whatsApp">
+                                   <a href="#">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        88 77 88 23 23
+                                   </a>
+                              </div>
+                              <div class="bottomButton">
+                                   <ul>
+                                        <li>
+                                             <a href="#">
+                                                  <img src="./asset/img/footergooglelogo.png" alt="">
+                                             </a>
+                                        </li>
+                                        <li>
+                                             <a href="#">
+                                                  <img src="./asset/img/footerchromelogo.png" alt="">
+                                             </a>
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </footer>
+     <div id="copyright">
+          <div class="container">
+               <div class="row">
+                    <div class="col-12">
+                         <div class="content text-center">
+                              <p>Copyright © 2023 Hyyzo. All rights reserved</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <!-- all javascript load here -->
+     <script src="asset/js/vendor/jquery-3.3.1.min.js"></script>
+     <script src="asset/js/bootstrap.bundle.min.js"></script>
+     <script src="asset/js/custom.js"></script>
+</body>
+
+</html>
