@@ -7,7 +7,7 @@ const sourcemaps = require('gulp-sourcemaps');
 function style(){
     return gulp.src('asset/sass/*.scss')
     .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('asset/css'))
     .pipe(browserSync.stream());
