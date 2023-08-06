@@ -33,23 +33,11 @@
                      </button>
                   </div>
                   <a href="index.html">
-                     <img src="./asset/img/logo-white.png" alt="Logo">
+                     <img src="./asset/img/logo.png" alt="Logo">
                   </a>
                </div>
             </div>
-            <div class="col-xl-2 col-lg-2 col-6">
-               <div class="leftmenuBoxNew">
-                  <ul>
-                     <li>
-                        <a href="stores.html">All Stores</a>
-                     </li>
-                     <li class="hideInMobileMenushow">
-                        <a href="#">Tasks</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-12">
+            <div class="col-xl-5 col-lg-5 col-12">
                <div class="header_search_box">
                   <div class="input-group">
                      <input type="text" class="form-control" placeholder="Search Stores...">
@@ -59,18 +47,21 @@
                   </div>
                </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-6">
-               <div class="nav_menu_bar">
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 col-6">
+               <div class="nav_menu_bar text-end">
                   <ul>
+                     <li>
+                        <a href="stores.html">All Stores</a>
+                     </li>
+                     <li>
+                        <a href="#">Tasks</a>
+                     </li>
                      <!-- before login -->
-                     <!-- <li style="float: right;">
+                     <!-- <li>
                         <a href="#">Login / Signup</a>
                      </li> -->
                      <!-- after login -->
                      <li>
-                        <a href="#">Deal of the Day</a>
-                     </li>
-                     <li style="float: right;">
                         <div class="btn-group user_dropdown">
                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                               aria-expanded="false">
@@ -87,14 +78,14 @@
                                     <div class="singleBox">
                                        <h4>Pending balance:</h4>
                                        <span>
-
+                                          <img src="./asset/img/diamond-sm.png" alt="">
                                           0
                                        </span>
                                     </div>
                                     <div class="singleBox">
                                        <h4>Available balance:</h4>
                                        <span>
-
+                                          <img src="./asset/img/diamond-sm.png" alt="">
                                           25
                                        </span>
                                     </div>
@@ -127,6 +118,19 @@
                      </li>
                   </ul>
                </div>
+               <div class="mobileNavMenu text-end">
+                  <ul>
+                     <!-- <li class="beforeLogin">
+                        <a href="#">Login / Signup</a>
+                     </li> -->
+                     <li class="afterLogin">
+                        <div class="dimondShowBox">
+                           <img src="./asset/img/diamond-sm.png" alt="">
+                           <span>25</span>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
             </div>
          </div>
       </div>
@@ -148,19 +152,7 @@
             <ul>
                <li>
                   <a href="myprofile.html">
-                     <span><i class="fa-regular fa-list-check"></i></span>
-                     Task
-                  </a>
-               </li>
-               <li>
-                  <a href="myprofile.html">
-                     <span><i class="fa-regular fa-handshake"></i></span>
-                     Deal of the day
-                  </a>
-               </li>
-               <li>
-                  <a href="myprofile.html">
-                     <span><i class="fa-regular fa-user"></i></span>
+                     <span><i class="fa-solid fa-user"></i></span>
                      My Profile
                   </a>
                </li>
@@ -214,7 +206,6 @@
                                     <img src="./asset/img/slider/4.jpeg" class="d-block w-100" alt="...">
                                  </div>
                               </div>
-
                               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                                  data-bs-slide="prev">
                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -229,41 +220,8 @@
                         </div>
                      </div>
                      <div class="col-xl-4 col-lg-4">
-                        <div id="carouselExample2" class="carousel slide" data-bs-ride="carousel">
-                           <div class="carousel-inner">
-                              <!-- single right side carousel -->
-                              <div class="carousel-item active">
-                                 <div class="rightSLiderItem">
-                                    <img class="img-fluid" src="./asset/img/slider/5.jpeg" alt="">
-                                 </div>
-                              </div>
-                              <!-- single right side carousel -->
-                              <div class="carousel-item">
-                                 <div class="rightSLiderItem">
-                                    <img class="img-fluid" src="./asset/img/slider/5.jpeg" alt="">
-                                 </div>
-                              </div>
-                              <!-- single right side carousel -->
-                              <div class="carousel-item">
-                                 <div class="rightSLiderItem">
-                                    <img class="img-fluid" src="./asset/img/slider/5.jpeg" alt="">
-                                 </div>
-                              </div>
-                              <!-- single right side carousel -->
-                              <div class="carousel-item">
-                                 <div class="rightSLiderItem">
-                                    <img class="img-fluid" src="./asset/img/slider/5.jpeg" alt="">
-                                 </div>
-                              </div>
-                           </div>
-                           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
-                              data-bs-slide="prev">
-                              <span><i class="fa-regular fa-angle-left"></i></a></span>
-                           </button>
-                           <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
-                              data-bs-slide="next">
-                              <span><i class="fa-regular fa-angle-right"></i></a></span>
-                           </button>
+                        <div class="rightSLiderItem">
+                           <img class="img-fluid" src="./asset/img/slider/5.jpeg" alt="">
                         </div>
                      </div>
                   </div>
@@ -273,6 +231,32 @@
       </div>
    </section>
 
+   <!-- <section id="profitLinkArea">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="profitWrapper">
+                  <div class="topInfo text-center">
+                     <h4>Profit Link</h4>
+                     <p>Copy links of best deals from our stores. Share & Earn.</p>
+                  </div>
+                  <div class="formBoxArea">
+                     <form>
+                        <div class="input-group">
+                           <input type="text" class="form-control" required
+                              placeholder="Paste Link eg-https://www.flipkart.com/bags-wallets-belts/" />
+                           <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-link"></i></span>
+                        </div>
+                        <div class="makeProfitLinkButton">
+                           <button type="submit" class="btn btn-primary">Make Profit Link</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section> -->
 
    <section id="feateredStores">
       <div class="container">
@@ -290,6 +274,7 @@
                                  <img class="img-fluid brandImage" src="./asset/img/brand/1.png" alt="">
                               </div>
                               <span>
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  Upto 18.75% Diamonds
                               </span>
                            </a>
@@ -302,6 +287,7 @@
                                  <img class="img-fluid brandImage" src="./asset/img/brand/2.png" alt="">
                               </div>
                               <span>
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  Flat 125 Diamonds
                               </span>
                            </a>
@@ -314,6 +300,7 @@
                                  <img class="img-fluid brandImage" src="./asset/img/brand/3.png" alt="">
                               </div>
                               <span>
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  Flat 12.75% Diamonds
                               </span>
                            </a>
@@ -326,6 +313,7 @@
                                  <img class="img-fluid brandImage" src="./asset/img/brand/4.png" alt="">
                               </div>
                               <span>
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  Flat 12.75% Diamonds
                               </span>
                            </a>
@@ -485,7 +473,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/1.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -500,7 +488,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/2.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -515,7 +503,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/3.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -530,7 +518,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/4.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -545,7 +533,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/5.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -560,7 +548,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/6.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -575,7 +563,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/7.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -590,7 +578,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/8.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -616,7 +604,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/1.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -631,7 +619,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/2.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -646,7 +634,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/3.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -661,7 +649,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/4.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -676,7 +664,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/5.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -702,7 +690,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/1.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -717,7 +705,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/2.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -743,7 +731,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/1.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -758,7 +746,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/2.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -773,7 +761,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/3.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -788,7 +776,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/4.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -803,7 +791,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/5.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -818,7 +806,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/6.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -833,7 +821,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/7.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -848,7 +836,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/8.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -874,7 +862,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/1.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -889,7 +877,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/2.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -904,7 +892,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/3.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -919,7 +907,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/4.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -934,7 +922,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/5.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -960,7 +948,7 @@
                                                    <img class="img-fluid brandImage" src="./asset/img/tab/1.png" alt="">
                                                 </div>
                                                 <span>
-
+                                                   <img src="./asset/img/diamond-sm.png" alt="">
                                                    Upto 18.75% Diamonds
                                                 </span>
                                              </a>
@@ -1034,7 +1022,7 @@
                            </div>
                            <div class="infoCard">
                               <div class="subinfo">
-
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  <span>Upto 18.75% Diamonds</span>
                               </div>
                            </div>
@@ -1056,7 +1044,7 @@
                            </div>
                            <div class="infoCard">
                               <div class="subinfo">
-
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  <span>Upto 18.75% Diamonds</span>
                               </div>
                            </div>
@@ -1078,7 +1066,7 @@
                            </div>
                            <div class="infoCard">
                               <div class="subinfo">
-
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  <span>Upto 18.75% Diamonds</span>
                               </div>
                            </div>
@@ -1100,7 +1088,7 @@
                            </div>
                            <div class="infoCard">
                               <div class="subinfo">
-
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  <span>Upto 18.75% Diamonds</span>
                               </div>
                            </div>
@@ -1122,7 +1110,7 @@
                            </div>
                            <div class="infoCard">
                               <div class="subinfo">
-
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  <span>Upto 18.75% Diamonds</span>
                               </div>
                            </div>
@@ -1166,6 +1154,77 @@
       </div>
    </div>
 
+   <!-- <section id="Taskarea">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="section_heading text-center">
+                  <h3>Baenephit Task</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="taskBottomWrapper">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+               <div class="col-xl-5 col-lg-5 col-md-12">
+                  <div class="leftInfo">
+                     <h4>How To Complete Task?</h4>
+                     <ul>
+                        <li>Signup/Login to Your Baenephit Account</li>
+                        <li>Click on Your Favorite Activity</li>
+                        <li>Complete Activity Task</li>
+                        <li>Earn Cashback to your Baenephit Wallet</li>
+                        <li>Withdraw whenever you want</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-2 col-lg-2 col-md-5 col-sm-4">
+                  <div class="middleImageBox">
+                     <img src="./asset/img/Taskbanner.jpeg" alt="">
+                  </div>
+               </div>
+               <div class="col-xl-5 col-lg-5 col-md-7 col-sm-8">
+                  <div class="rightinfo">
+                     <div class="content">
+                        <h4>Get AU Bank Credit Card and Earn 1350 Baenephit Diamonds</h4>
+                        <p>Get an AU Bank Credit Card, complete e-KYC and get 1350 Baenephit Diamonds (1
+                           Baenephit Diamond= 1 ₹)
+                           Check out more details in T&Cs.</p>
+                     </div>
+                     <div class="actionsButton">
+                        <button class="btn btn-primary">View Task</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section> -->
+
+   <!-- <section id="addCardArea">
+      <div class="innerCardArea">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 col-lg-6 col-md-6">
+                  <a href="#">
+                     <div class="singleAdd">
+                        <img src="./asset/img/add1.jpeg" alt="">
+                     </div>
+                  </a>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6">
+                  <a href="#">
+                     <div class="singleAdd">
+                        <img src="./asset/img/add2.jpeg" alt="">
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section> -->
+
    <!-- top coupon -->
    <section id="feateredStores">
       <div class="container">
@@ -1183,7 +1242,7 @@
                                  <img class="img-fluid brandImage" src="./asset/img/brand/1.png" alt="">
                               </div>
                               <span>
-
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  Upto 18.75% Diamonds
                               </span>
                            </a>
@@ -1196,7 +1255,7 @@
                                  <img class="img-fluid brandImage" src="./asset/img/brand/2.png" alt="">
                               </div>
                               <span>
-
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  Flat 125 Diamonds
                               </span>
                            </a>
@@ -1209,7 +1268,7 @@
                                  <img class="img-fluid brandImage" src="./asset/img/brand/3.png" alt="">
                               </div>
                               <span>
-
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  Flat 12.75% Diamonds
                               </span>
                            </a>
@@ -1222,7 +1281,7 @@
                                  <img class="img-fluid brandImage" src="./asset/img/brand/4.png" alt="">
                               </div>
                               <span>
-
+                                 <img src="./asset/img/diamond-sm.png" alt="">
                                  Flat 12.75% Diamonds
                               </span>
                            </a>
@@ -1265,6 +1324,8 @@
       </div>
    </section>
 
+
+
    <section id="mobileAddCard">
       <div class="container">
          <div class="row">
@@ -1282,28 +1343,55 @@
       </div>
    </section>
 
-   <!-- new footer area -->
-   <footer id="footer-2">
+   <!-- <section id="addCard2">
+      <a href="#">
+         <img src="./asset/img/add3.jpeg" alt="">
+      </a>
+   </section> -->
+
+   <footer id="footerArea">
       <div class="container">
          <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
-               <div class="companyInfo">
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5">
+               <div class="footerLink">
+                  <h4>PAGES</h4>
+                  <ul>
+                     <li>
+                        <a href="termscondition.html">Terms & Conditions</a>
+                     </li>
+                     <li>
+                        <a href="privacy-policy.html">Privacy-Policy</a>
+                     </li>
+                     <li>
+                        <a href="#">About Us</a>
+                     </li>
+                     <li>
+                        <a href="contact.html">Contact Us</a>
+                     </li>
+                     <li>
+                        <a href="#">Help & Support</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-7 col-sm-7">
+               <div class="footerLogo text-center">
                   <div class="logoBox">
                      <a href="index.html">
-                        <img src="./asset/img/logo.png" alt="">
+                        <img src="./asset/img/logo-white.png" alt="">
                      </a>
-                     <p>amazing cashback deals to save more on every purchase.</p>
                   </div>
-                  <div class="socialBox">
+                  <div class="socialConnect">
+                     <h4>CONNECT WITH US</h4>
                      <ul>
                         <li>
                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         </li>
                         <li>
-                           <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                           <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         </li>
                         <li>
-                           <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                           <a href="#"><i class="fa-brands fa-twitter"></i></a>
                         </li>
                         <li>
                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -1312,47 +1400,26 @@
                   </div>
                </div>
             </div>
-            <div class="col-xl-9 col-lg-9 col-md-8 col-sm-12 col-12">
-               <div class="footerLinkAre">
-                  <div class="singleLinkBox">
-                     <ul>
-                        <li>
-                           <a href="#">About Us</a>
-                        </li>
-                        <li>
-                           <a href="/privacy-policy.html">Privacy Policy</a>
-                        </li>
-                        <li>
-                           <a href="/termscondition.html">Terms & Condition</a>
-                        </li>
-                        <li>
-                           <a href="#">Partner with us</a>
-                        </li>
-                     </ul>
+            <div class="col-xl-4 col-lg-4 col-12">
+               <div class="contactInfo text-end">
+                  <h4>CONTACT INFO</h4>
+                  <div class="whatsApp">
+                     <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        88 77 88 23 23
+                     </a>
                   </div>
-                  <div class="singleLinkBox">
+                  <div class="bottomButton">
                      <ul>
                         <li>
-                           <a href="#">FAQ</a>
+                           <a href="#">
+                              <img src="./asset/img/footergooglelogo.png" alt="">
+                           </a>
                         </li>
                         <li>
-                           <a href="#">MISSING CASHBACK</a>
-                        </li>
-                        <li>
-                           <a href="/contact.html">CONTACT US</a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="singleLinkBox">
-                     <ul>
-                        <li>
-                           <a href="#">BEST OFFERS</a>
-                        </li>
-                        <li>
-                           <a href="/stores.html">BEST STORES</a>
-                        </li>
-                        <li>
-                           <a href="/contact.html">CAREERS</a>
+                           <a href="#">
+                              <img src="./asset/img/footerchromelogo.png" alt="">
+                           </a>
                         </li>
                      </ul>
                   </div>
@@ -1374,6 +1441,123 @@
       </div>
    </div>
 
+   <!-- <div id="siteInfoAreaBottom">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="singleInfoBox">
+                  <h4>About Baenephit | The Best Cashback paying website in India</h4>
+                  <p>Baenephit is a perfect example of how you can save money while shopping online. It is
+                     launched with the
+                     goal to satisfy the customer's needs by providing amazing cashback offers and deals. Humaideal to
+                     Baenephit is
+                     India's highest cashback-paying site and can work as your ultimate saviour if you shop online
+                     frequently. Baenephit is the fastest-growing cashback website in India that provides
+                     you with amazing
+                     cashback deals to save more on every purchase. The platform ensures you can get amazing cashback
+                     which you can later redeem into your bank account or digital wallet. This cashback shopping
+                     platform currently works with 100+ popular online stores. All the associated stores serve various
+                     categories, including fashion, travel, food, grooming, electronics, mobile, beauty, and health.
+                     Baenephit is here with amazing cashback on online shopping that rewards you for
+                     shopping.</p>
+               </div>
+               <div class="singleInfoBox">
+                  <h4>Why Baenephit is the best cashback paying site in India</h4>
+                  <p>Baenephit, the best cashback paying website in India, provides some amazing cashback
+                     offers on online
+                     shopping from associated stores. When users shop via Baenephit, their account will be
+                     credited with
+                     cashback in the form of Baenephit Diamonds where 1HD = ₹1</p>
+                  <ol>
+                     <li>Highest cashback paying website</li>
+                     <p>With Baenephit, you can enjoy unbeatable cashback offers; Baenephit is
+                        India's highest cashback paying
+                        site, enabling you to get the best offers.</p>
+                     <li>Provides the best online shopping offers and deals</li>
+                     <p>Baenephit helps its users save a lot by providing amazing deals and offers so that
+                        customers can buy
+                        the products at the best price.</p>
+                     <li>Top online stores</li>
+                     <p>Baenephit has more than 100 shopping stores that provide online shopping cashback
+                        on every purchase.
+                     </p>
+                  </ol>
+               </div>
+               <div class="singleInfoBox">
+                  <h4>Categories on which you can earn cashback by shopping</h4>
+                  <p>The platform was created to make your online shopping experience more fascinating by providing
+                     online shopping deals. There are over 100 online stores, including Amazon, Flipkart, Myntra,
+                     Mamaearth, and others, on which you can easily earn the best cashback. Baenephit is
+                     the best site to
+                     shop from. We are known for our eye-catching cashback deals and offers on various categories of
+                     stores.</p>
+                  <ol>
+                     <li>Cashback offers on Fashion</li>
+                     <p>With such a wide collection of fashion products, you can be sure to find wonderful deals on all
+                        the e-commerce fashion sites like Myntra, Ajio, H&M, Adidas, etc. So buy ethnic apparel, party
+                        dress, formal workplace attire, casual wear, footwear, and all with amazing cashback offers
+                        using Hyy</p>
+                     <li>Cashback offers on Health</li>
+                     <p>To meet your wellness needs, Baenephit provides users with additional savings and
+                        cashback offers on
+                        products and services of various pharmaceutical sites like Healthkart, Apollo, Tata 1MG,
+                        Netmeds.com, Pharmeasy, etc.</p>
+                     <li>Cashback offers on Electronics</li>
+                     <p>Baenephit offers products from the top e-commerce store for all your electronics
+                        needs. Baenephit can be
+                        your go-to platform if you want to buy anything from Flipkart, Croma, Tata Cliq, Oneplus, Dell,
+                        etc. and get cashback. Shop for a wide range of electronic items from the most popular stores
+                        with amazing cashback.</p>
+                     <li>Cashback offers on Beauty</li>
+                     <p>You may find extraordinary cashback deals on the top beauty products’ brands. We offer a variety
+                        of beauty and personal care brands, including Mamaearth, Beardo, Mcaffeine, Lakme, Myglamm, WOW,
+                        and others.</p>
+                     <li>Cashback offers on Travel</li>
+                     <p>Travelling will no longer be expensive for you. Use Baenephit while booking your
+                        hotel rooms or
+                        flight and train tickets and grab great cashback. Reserve your tickets and hotels at Cleartrip,
+                        MakeMyTrip, or Goibibo, and make your trip memorable by saving a lot.</p>
+                  </ol>
+               </div>
+               <div class="singleInfoBox">
+                  <h4>Other ways to earn using Baenephit</h4>
+                  <p>Being among the top cashback paying websites in India, Baenephit ensures to keep our
+                     shoppers happy, so
+                     we add numerous features that help you earn online without shopping. Let's have a look!</p>
+                  <ol>
+                     <li>Refer and earn</li>
+                     <p>Baenephit offers you an amazing feature, refer and earn. When you refer someone to
+                        join, you will
+                        get 50 Baenephit Diamonds for every successful signup, and the new user will get 25
+                        Baenephit Diamonds.
+                     </p>
+                     <li>ask completion</li>
+                     <p>Baenephit provides the user with a simple and exciting set of tasks. Users get
+                        certain Baenephit
+                        Diamonds mentioned in the task details when they complete each task like credit card
+                        applications or through app downloads.</p>
+                     <li>Profit link</li>
+                     <p>Profit link is a unique feature by Baenephit. Profit links allow users to generate
+                        product links
+                        from Baenephit's associated store. When someone purchases using that link, you will
+                        get Baenephit
+                        Diamonds credited to your account.</p>
+                  </ol>
+               </div>
+               <div class="singleInfoBox">
+                  <h4>How does Baenephit cashback work</h4>
+                  <p>Baenephit always keeps customer's comfort as their priority. When users shop through
+                     Baenephit-associated
+                     stores, Baenephit gets some commission for each purchase. Baenephit
+                     transfers 100% of this commission to
+                     the user as Baenephit Diamonds, which is the cashback they earn by shopping via
+                     Baenephit.</p>
+                  <p><strong>Note:</strong> Baenephit is powered by Zonet Technology Private Limited.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div> -->
 
    <!-- login/signup modal -->
    <div class="modal fade authModal" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -1491,7 +1675,7 @@
    <script src="asset/js/bootstrap.bundle.min.js"></script>
    <script src="./asset/js/owl.carousel.min.js"></script>
    <script src="asset/js/custom.js"></script>
-   <script>
+   <!-- <script>
       $(function () {
          setTimeout(function () {
             $('#loginModal').modal('show');
@@ -1502,7 +1686,7 @@
             $('#loginModalVerify').modal('show');
          })
       })
-   </script>
+   </script> -->
 </body>
 
 </html>

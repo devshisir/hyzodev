@@ -27,7 +27,11 @@
                display: none;
           }
      }
+     #header_top .leftmenuBoxNew {
+          text-align: right;
+     }
      #heroBannerInfo {
+          padding-top: 40px;
           .mainWrapper{
                .rightSLiderItem{
                     img{
@@ -85,6 +89,16 @@
      .chagePasswordModal .modal-dialog {
           max-width: 75%;
      }
+     #cta1 .ctaWrapper .rightContent {
+          text-align: center;
+          margin-top: 10px;
+     }
+     #emailSubscribe .subscribeWrapper .rightForm {
+          margin-top: 20px;
+     }
+     .hideInMobileMenushow{
+          display: none !important;
+     }
 }
 
 /* LG Device :992px. */
@@ -134,7 +148,7 @@
                          margin: 0 auto;
                          display: table;
                          width: 100%;
-                         height: 200px;
+                         height: 300px;
                     }
                }
           }
@@ -249,18 +263,23 @@
      .authModal .modal-body .rightContent .googleLogin .googleLoginBtn {
           font-size: 10px;
      }
+     #footer-2 .footerLinkAre {
+          margin-top: 20px;
+          padding-left: 0px;
+          row-gap: 10px;
+     }
+     #footer-2 .companyInfo .logoBox a img {
+          width: 60%;
+     }
 }
 
 /*-- Phone Landscape --*/
 @media only screen and (min-width: 576px) and (max-width: 767px) {}
 
 /* Extra small Device. */
-@media (max-width: 575px) {
+@media (max-width: 576px) {
      #header_top .logo_box img {
           width: 86px;
-     }
-     #heroBannerInfo .mainWrapper .rightSLiderItem {
-          display: none;
      }
      #feateredStores .featuredCardWrapper .owl-nav .owl-next {
           right: 0px;
@@ -398,4 +417,25 @@
      .chagePasswordModal .modal-dialog {
           max-width: 100%;
      }
+     #header_top .mobileNavMenu ul .afterLogin .dimondShowBox {
+          display: none;
+     }
+     #heroBannerInfo {
+          padding-top: 0px;
+
+     }
+     #footer-2 .footerLinkAre .singleLinkBox {
+          min-width: auto;
+          margin-right: 24px;
+     }
+     #topSellingProduct .sliderWrapperTop .topSellingSliderActive .owl-nav .owl-next {
+          right: 0px;
+     }
+     #topSellingProduct .sliderWrapperTop .topSellingSliderActive .owl-nav .owl-prev {
+          left: 0px;
+     }
+     #topSellingProduct .sliderWrapperTop .topSellingSliderActive {
+          padding: 0px 0px;
+     }
+
 }

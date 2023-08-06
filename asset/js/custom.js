@@ -67,6 +67,41 @@ $(document).ready(function() {
                   loop: true
              }
         }
-   })
+    })
+    $('.topSellingSliderActive').owlCarousel({
+        loop: true,
+            margin: 15,
+            responsiveClass: true,
+            nav: true,
+            navText: ['<i class="fa-regular fa-angle-left"></i>', '<i class="fa-regular fa-angle-right"></i>'],
+            autoplay:false,
+            autoplayTimeout:5000,
+            smartSpeed: 1000,
+            items: 4,
+            responsive: {
+                0: {
+                    nav: true,
+                    items: 1,
+                    stagePadding: 30,
+                    margin: 8,
+                },
+                576:{
+                    nav: true,
+                    items: 1,
+                    stagePadding: 20,
+                    margin: 8,
+                },
+                768:{
+                    nav: true,
+                    items: 2,
+                },
+                992:{
+                    nav: true,
+                },
+                1200:{
+                    nav: true,
+                }
+            }
+    })
     
 });
